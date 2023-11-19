@@ -12,6 +12,10 @@
   "dependencies": {
     "dile-input": "^3.1.2",
     "lit-element": "^3.3.3",
-    "polymer": "^0.5.0"
+    "polymer": "^0.5.0",
+    "polymer-cli": "^1.9.11"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6"
   }
 }

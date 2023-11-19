@@ -4,10 +4,6 @@ import stylesCss from "./my-loginStyle";
 export class MyLogin extends LitElement{
     constructor(){
         super();
-        this.shadowRoot.getElementById("registro").addEventListener("click",
-        ()=>{
-            this.shadowRoot.getElementById("login").style.visibility="visible";
-        })
     }   
     static get styles(){
         return [stylesCss]
@@ -25,7 +21,6 @@ export class MyLogin extends LitElement{
              <input class="inputtext" type="password" name="contrsena" id="contrsena" placeholder="****"><br>
         <button class="btn" type="submit">Iniciar sesión</button><br>
         <p>¿Ya tienes cuenta?</p>
-        <button id="registro clas">Regístrate</button>
     </div>`
     }
 }

@@ -21,7 +21,6 @@ export default css`
     padding: 20px;
     font-family: Garamond;
     font-style:bold;
-    visibility:collapse;
 }
 .labelf{
     font-size:120%;

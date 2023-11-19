@@ -49,9 +49,7 @@ export class MySignUp extends LitElement{
                 <input class="inputtext" type="email" name="correo" id="correo"  placeholder="junalb12@gmail.com"><br>
             <label class="labelf" for="contrsena">Contrseña</label>
                 <input class="inputtext" type="password" name="contrsena" id="contrsena" placeholder="*****"><br>
-            <button class="btn" type="button"  @click=${
-                                    e=>(this.register())
-                                }>Registrarse</button><br>
+            <button class="btn" type="button">Registrarse</button><br>
         </div>`
     }
 }
